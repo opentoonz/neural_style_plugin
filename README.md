@@ -37,8 +37,6 @@ You have to get [nin_imagenet.caffemodel](https://gist.github.com/mavenlin/d802a
 0. copy `neural_style_synthesizer` directory and `DWANGO_NeuralStyle.plugin` to `${path-to-stuff}/plugins`
 0. copy `nin_imagenet.caffemodel` and `VGG_ILSVRC_16_layers.caffemodel` to `${path-to-stuff}/plugins/neural_style_synthesizer`
 
-お疲れ様でした。
-
 #### w/o GPU 
 
 0. install `Python 2.7 WIndows 64-bit`
