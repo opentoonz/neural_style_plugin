@@ -3,8 +3,8 @@ NeuralStyle Plugin
 
 This plugin effect transfers style of `style image` to `content image` using neural network.
 
-The mode files of neural network are not contained in this repository.
-You have to get [nin_imagenet.caffemodel](https://gist.github.com/mavenlin/d802a5849de39225bcc6) and [VGG_ILSVRC_16_layers.caffemodel](https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md).
+The model files of neural networks are not contained in this repository.
+You can to get them from [nin_imagenet.caffemodel](https://gist.github.com/mavenlin/d802a5849de39225bcc6) and [VGG_ILSVRC_16_layers.caffemodel](https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md).
 
 ## How to install
 
