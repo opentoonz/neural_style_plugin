@@ -8,6 +8,10 @@ You have to get [nin_imagenet.caffemodel](https://gist.github.com/mavenlin/d802a
 
 ## How to install
 
+### OS X
+
+TBD
+
 ### Windows
 
 #### w/ GPU

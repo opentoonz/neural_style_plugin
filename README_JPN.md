@@ -7,6 +7,10 @@ NeuralStyle Plugin
 
 ## インストール
 
+### OS X
+
+TBD
+
 ### Windows
 
 本プラグインを Windows 上で動作させるためには、下記の環境設定が必要になります。
