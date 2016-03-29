@@ -27,13 +27,7 @@ You have to get [nin_imagenet.caffemodel](https://gist.github.com/mavenlin/d802a
  * download `cvxopt-1.1.7+openblas-cp27-none-win_amd64.whl` from [link5](http://www.lfd.uci.edu/~gohlke/pythonlibs/#cvxopt)
  * exec `pip install cvxopt-1.1.7+openblas-cp27-none-win_amd64.whl` on command prompt
 0. install `chainer`
- * exec
-   ```
-   set VS100COMNTOOLS=%VS120COMNTOOLS%
-   set PATH=%VS120COMNTOOLS%\..\..\VC\bin;%PATH%
-   pip install chainer
-   ```
-   on command prompt
+ * exec ```set VS100COMNTOOLS=%VS120COMNTOOLS%` ; set PATH=%VS120COMNTOOLS%\..\..\VC\bin;%PATH%` ; pip install chainer``` on command prompt
 0. copy `neural_style_synthesizer` directory and `DWANGO_NeuralStyle.plugin` to `${path-to-stuff}/plugins`
 0. copy `nin_imagenet.caffemodel` and `VGG_ILSVRC_16_layers.caffemodel` to `${path-to-stuff}/plugins/neural_style_synthesizer`
 
@@ -47,12 +41,6 @@ You have to get [nin_imagenet.caffemodel](https://gist.github.com/mavenlin/d802a
  * download `cvxopt-1.1.7+openblas-cp27-none-win_amd64.whl` from [link5](http://www.lfd.uci.edu/~gohlke/pythonlibs/#cvxopt)
  * exec `pip install cvxopt-1.1.7+openblas-cp27-none-win_amd64.whl` on command prompt
 0. install `chainer`
- * exec
-   ```
-   set VS100COMNTOOLS=%VS120COMNTOOLS%
-   set PATH=%VS120COMNTOOLS%\..\..\VC\bin;%PATH%
-   pip install chainer
-   ```
-   on command prompt
+ * exec ```pip install chainer``` on command prompt
 0. copy `neural_style_synthesizer` directory and `DWANGO_NeuralStyle.plugin` to `${path-to-stuff}/plugins`
 0. copy `nin_imagenet.caffemodel` and `VGG_ILSVRC_16_layers.caffemodel` to `${path-to-stuff}/plugins/neural_style_synthesizer`

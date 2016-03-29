@@ -28,13 +28,7 @@ NeuralStyle Plugin
  * [link5](http://www.lfd.uci.edu/~gohlke/pythonlibs/#cvxopt) から `cvxopt-1.1.7+openblas-cp27-none-win_amd64.whl` をダウンロードします
  * コマンドプロンプトから `pip install cvxopt-1.1.7+openblas-cp27-none-win_amd64.whl` を実行します
 0. `chainer` をインストールする
- * コマンドプロンプトから
-   ```
-   set VS100COMNTOOLS=%VS120COMNTOOLS%
-   set PATH=%VS120COMNTOOLS%\..\..\VC\bin;%PATH%
-   pip install chainer
-   ```
-   を実行します。
+ * コマンドプロンプトから ```set VS100COMNTOOLS=%VS120COMNTOOLS%` ; set PATH=%VS120COMNTOOLS%\..\..\VC\bin;%PATH% ; pip install chainer``` を実行します。
 0. `neural_style_synthesizer` ディレクトリと `DWANGO_NeuralStyle.plugin` を `${path-to-stuff}/plugins` にコピーする
 0. `${path-to-stuff}/plugins/neural_style_synthesizer` に `nin_imagenet.caffemodel` と `VGG_ILSVRC_16_layers.caffemodel` をコピーする
 
