@@ -69,9 +69,9 @@ TBD
 | `method`         |  1.000 |  0 |    1.0 | method flag for neural network: `{0: max_pooling, 1: average_pooling}`. The default value is recommended. |
 | `model`          |  0.000 |  0 |    1.0 | model of neural network: `{0: nin, 1: vgg}`, `nin` is a small and `vgg` is a large model (*) |
 | `smooth`         |  0.000 |  0 |    1.0 | sequential processing flag: `{0: off, 1: on}` (*) |
-| `optimize`       |  1.000 |  0 |    1.0 | optimal selection flag for splited style images: `{0: off, 1: on}`. The default value is recommended. |
+| `optimize`       |  1.000 |  0 |    1.0 | whether to optimize the mixture ratio of style image parts: `{0: off, 1: on}`. The default value is recommended. |
 | `gpu`            | -1.000 | -1 |    3.0 | GPU id (CPUs are used when `gpu` euqals to `-1`) |
-| `content_weight` |  0.005 |  0 |    0.1 | style weight of `Content` image |
+| `content_weight` |  0.005 |  0 |    0.1 | content image weight for style optimization |
 | `pause`          |  0.000 |  0 |    1.0 | do-not-automatically-close-consoles flag for debugging: `{0: off, 1: on}` (only for Windows) |
 
 (*) You have to set `Dedicated CPUs` to `Single` at `Preview Settings` and `Output Settings`, when you use the `vgg` model or enable the `smooth` flag.
