@@ -1,4 +1,4 @@
-NeuralStyle Plugin
+NeuralStyle Plugin ([English](./README.md))
 ====================
 
 本プラグインは、ニューラルネットワークを利用して、スタイル画像の画風をコンテンツ画像に転写するエフェクトです。

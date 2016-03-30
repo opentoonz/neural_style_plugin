@@ -1,4 +1,4 @@
-NeuralStyle Plugin
+NeuralStyle Plugin ([日本語](./README_ja.md))
 ====================
 
 This plugin effect transfers style of `style image` to `content image` using neural network.
