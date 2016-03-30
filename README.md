@@ -62,8 +62,8 @@ TBD
 
 | param name | default value | min value | max value | |
 | --- | ---:| ---:| ---:| --- |
-| `xsplit`         |  1.000 |  1 |   16.0 | the number of horizontal splits |
-| `ysplit`         |  1.000 |  1 |   16.0 | the number of vertical splits |
+| `xsplit`         |  1.000 |  1 |   16.0 | the number of horizontal style image splits |
+| `ysplit`         |  1.000 |  1 |   16.0 | the number of vertical style image splits |
 | `resize`         |  1.000 |  0 |    1.0 | resize factor: 1 (original size), 0.5 (half size), 0.1 (1/10 size), and so on. |
 | `iteration`      | 10.000 |  0 | 1000.0 | the number of iterations for style optimization |
 | `method`         |  1.000 |  0 |    1.0 | method flag for neural network: `{0: max_pooling, 1: average_pooling}`. The default value is recommended. |
